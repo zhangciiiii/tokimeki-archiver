@@ -1,0 +1,48 @@
+# Local environments and tools
+.venv/
+venv/
+env/
+/.tools/
+
+# Python build and test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Recordings, rendered videos, and downloaded avatars
+/data/
+/output/
+/.cache/
+.danmaku-*/
+.ass-*/
+*.mp4
+*.flv
+*.mkv
+*.mov
+*.webm
+
+# Local credentials and editor settings
+.env
+.env.*
+!.env.example
+/.codex/
+/.aws/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*~
